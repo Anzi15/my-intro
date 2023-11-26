@@ -88,4 +88,7 @@ img {
   justify-content: center;
   gap: 1rem;
   list-style: none;
-}/*# sourceMappingURL=style.css.map */
+}
+.cen{
+  text-align: center;
+}
