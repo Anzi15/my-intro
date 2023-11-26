@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  scroll-snap-type: y mandatory;
+}
+
+h1, p {
+  margin: 0.5rem 0;
+}
+
+img {
+  width: 45%;
+  aspect-ratio: 1/1;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 1.7s;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.sec-1 {
+  background: #1b1b1b;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.intro-txt {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+@media (max-width: 500px) {
+  .section {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 7rem;
+  }
+  .intro-txt {
+    width: 80vw;
+  }
+  img {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
